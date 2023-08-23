@@ -1,0 +1,13 @@
+Users - gym owners
+    create workout plans
+    read workout plans
+    add important training tips for each workout
+
+Three-layer architecture
+Router                  passes requests to corresponding controller
+Controller              handle stuff related to HTTP, extract body from request object, do validation, pass it as argument to workout service
+Service layer           business logic, add missing properties in data model like id, created_at, updated_at
+Data Access layer       work with the database
+
+
+
